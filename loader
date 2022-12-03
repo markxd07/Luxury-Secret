@@ -1,1 +1,10 @@
-
+local gamelist = {
+    [994732206]  = "https://raw.githubusercontent.com/markxd07/Luxury-Secret/main/Blox-Fruits" -- Check Blox Fruits Map Mobile
+}
+local checkgame = gamelist[game.gameId]
+if gamelist[game.gameId] then 
+print (checkgame)
+    loadstring(game:HttpGet(checkgame))()
+else 
+game.Players.LocalPlayer:Kick("Game Not Support")
+end
