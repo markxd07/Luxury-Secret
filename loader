@@ -1,5 +1,6 @@
 local gamelist = {
-    [994732206]  = "https://raw.githubusercontent.com/markxd07/Luxury-Secret/main/Blox-Fruits" -- Check Blox Fruits Map Mobile
+    [994732206]  = "https://raw.githubusercontent.com/markxd07/Luxury-Secret/main/Blox-Fruits", -- Check Blox Fruits Map Mobile
+    [1451439645] = "https://raw.githubusercontent.com/markxd07/Luxury-Secret/main/King-Legacy" -- Check King Legacy Map
 }
 local checkgame = gamelist[game.gameId]
 if gamelist[game.gameId] then 
